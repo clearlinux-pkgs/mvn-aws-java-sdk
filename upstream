@@ -1,4 +1,16 @@
 828ce56e3c556e3d7836b2c51c2e32367c9ef5f6/1.10.69.tar.gz
+9fb0a1d8aee64a68da90cc2f07d05b22a5cbbb74/aws-java-sdk-bundle-1.11.375.jar
+d33acdfaa6d2c6a70396f84eff670ed2244d101d/aws-java-sdk-bundle-1.11.375.pom
+a1f02d5f26ba1d8c37e2bf9c847db3c6729dda00/aws-java-sdk-core-1.10.69.jar
+e1b59c34bd4ef65315f8b44dfd587c3caaf2ad94/aws-java-sdk-core-1.10.69.pom
+afbff1ece8365859eb4cfe0d3ba543d68b154d26/aws-java-sdk-ec2-1.10.69.jar
+a5057f7bf541677e9faa8a8dfdee38b32a3bd0a6/aws-java-sdk-ec2-1.10.69.pom
+c24e6ebe108c60a08098aeaad5ae0b6a5a77b618/aws-java-sdk-kms-1.11.223.jar
+668b71202a37330ecfb55d09b29b912724b2be81/aws-java-sdk-kms-1.11.223.pom
+1df681bfe8287b237cc43527264ab5a899c7d6cb/aws-java-sdk-pom-1.10.69.pom
+dc74b7a78e9ff3f21ca87c4f5752774b881575e6/aws-java-sdk-pom-1.11.375.pom
+c2ef96732e22d97952fbcd0a94f1dc376d157eda/aws-java-sdk-s3-1.11.223.jar
+6b84099661ec5372637010e6fded5f17f2c0516d/aws-java-sdk-s3-1.11.223.pom
 a1f02d5f26ba1d8c37e2bf9c847db3c6729dda00/aws-java-sdk-core-1.10.69.jar
 e1b59c34bd4ef65315f8b44dfd587c3caaf2ad94/aws-java-sdk-core-1.10.69.pom
 afbff1ece8365859eb4cfe0d3ba543d68b154d26/aws-java-sdk-ec2-1.10.69.jar
@@ -8,3 +20,6 @@ c24e6ebe108c60a08098aeaad5ae0b6a5a77b618/aws-java-sdk-kms-1.11.223.jar
 1df681bfe8287b237cc43527264ab5a899c7d6cb/aws-java-sdk-pom-1.10.69.pom
 c2ef96732e22d97952fbcd0a94f1dc376d157eda/aws-java-sdk-s3-1.11.223.jar
 6b84099661ec5372637010e6fded5f17f2c0516d/aws-java-sdk-s3-1.11.223.pom
+d33acdfaa6d2c6a70396f84eff670ed2244d101d/aws-java-sdk-bundle-1.11.375.pom
+9fb0a1d8aee64a68da90cc2f07d05b22a5cbbb74/aws-java-sdk-bundle-1.11.375.jar
+dc74b7a78e9ff3f21ca87c4f5752774b881575e6/aws-java-sdk-pom-1.11.375.pom
