@@ -18,3 +18,17 @@ db4b36ab6e6dfb3249a766e1efdc049d1fa787cc/aws-java-sdk-core-1.11.6.pom
 8c9ebc4b905aaaac0e80d0a0bfe44b0299e7ceba/aws-java-sdk-s3-1.11.6.jar
 64612ca8cb3acbe5d2abd33f526e9e195035056b/aws-java-sdk-s3-1.11.6.pom
 23e993d5cf9bae4ee37851c1a4d1b0b24e2e13b6/aws-java-sdk-pom-1.11.6.pom
+776de2c4246424330c0b4720fde0eefb5ac20fb1/aws-java-sdk-core-1.11.271.jar
+044532f5ca63b2ee1ea802e8f33c8a29e2e47bc6/aws-java-sdk-core-1.11.437.jar
+6a4431cbcb171bdebe9d04d3d3d92cd7d2e474a6/aws-java-sdk-kms-1.11.271.jar
+cee5841a9d9aae682191e3f9ca29a2409a801ffa/aws-java-sdk-kms-1.11.437.jar
+04319c7210d80f6b413dbaf547a3ce8d4c71af58/aws-java-sdk-s3-1.11.271.jar
+a869236e7b1c62b06ec46c9b48fc45c2c99f19e5/aws-java-sdk-s3-1.11.437.jar
+4157a712e7b648a0232e47185bef10443dccf182/aws-java-sdk-core-1.11.271.pom
+26b7f7459cca9a3f796bdf959cf286d2b3f9e7f7/aws-java-sdk-core-1.11.437.pom
+a5d526e38698515d1e0f27425ac9fac24e914010/aws-java-sdk-kms-1.11.271.pom
+9c1e102c36046c80a4a28713340eec8fb185d673/aws-java-sdk-kms-1.11.437.pom
+3e0a3eaf6cae71835dcba7a33eb3d422f5df3194/aws-java-sdk-pom-1.11.271.pom
+569ee5fff42973c970fb2a70605adc1aa069bbea/aws-java-sdk-pom-1.11.437.pom
+14b63f0621d800ba3fb2fcf5af124927bb1704d1/aws-java-sdk-s3-1.11.271.pom
+833c9815f1f5158599509fe855a146a32cd9a5b1/aws-java-sdk-s3-1.11.437.pom
