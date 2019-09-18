@@ -4,7 +4,7 @@
 #
 Name     : mvn-aws-java-sdk
 Version  : 1.10.69
-Release  : 6
+Release  : 7
 URL      : https://github.com/aws/aws-sdk-java/archive/1.10.69.tar.gz
 Source0  : https://github.com/aws/aws-sdk-java/archive/1.10.69.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.jar
@@ -44,6 +44,8 @@ Source34  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.43
 Source35  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.pom
 Source36  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.jar
 Source37  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
+Source38  : https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
+Source39  : https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -191,6 +193,12 @@ cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6
 cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
+
 
 %files
 %defattr(-,root,root,-)
@@ -234,6 +242,8 @@ cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java
 /usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
 /usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.jar
 /usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.pom
+/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
+/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
 
 %files license
 %defattr(0644,root,root,0755)
