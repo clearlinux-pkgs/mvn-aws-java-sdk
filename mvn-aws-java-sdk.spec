@@ -4,7 +4,7 @@
 #
 Name     : mvn-aws-java-sdk
 Version  : 1.10.69
-Release  : 8
+Release  : 9
 URL      : https://github.com/aws/aws-sdk-java/archive/1.10.69.tar.gz
 Source0  : https://github.com/aws/aws-sdk-java/archive/1.10.69.tar.gz
 Source1  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/aws-java-sdk-core/1.11.407/aws-java-sdk-core-1.11.407.jar
@@ -14,45 +14,47 @@ Source4  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/aws-java-s
 Source5  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/aws-java-sdk-pom/1.11.407/aws-java-sdk-pom-1.11.407.pom
 Source6  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/aws-java-sdk-s3/1.11.407/aws-java-sdk-s3-1.11.407.jar
 Source7  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/aws-java-sdk-s3/1.11.407/aws-java-sdk-s3-1.11.407.pom
-Source8  : https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.jar
-Source9  : https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.pom
-Source10  : https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.jar
-Source11  : https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.pom
-Source12  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.jar
-Source13  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.pom
-Source14  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.jar
-Source15  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.pom
-Source16  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.jar
-Source17  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.pom
-Source18  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.jar
-Source19  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.pom
-Source20  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.jar
-Source21  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.pom
-Source22  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.jar
-Source23  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.pom
-Source24  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.jar
-Source25  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.pom
-Source26  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.jar
-Source27  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.pom
-Source28  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.jar
-Source29  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.pom
-Source30  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.jar
-Source31  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.pom
-Source32  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.10.69/aws-java-sdk-pom-1.10.69.pom
-Source33  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.271/aws-java-sdk-pom-1.11.271.pom
-Source34  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.375/aws-java-sdk-pom-1.11.375.pom
-Source35  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.437/aws-java-sdk-pom-1.11.437.pom
-Source36  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.6/aws-java-sdk-pom-1.11.6.pom
-Source37  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.jar
-Source38  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.pom
-Source39  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.jar
-Source40  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.pom
-Source41  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.jar
-Source42  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.pom
-Source43  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.jar
-Source44  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
-Source45  : https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
-Source46  : https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
+Source8  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/jmespath-java/1.11.407/jmespath-java-1.11.407.jar
+Source9  : https://repo.gradle.org/gradle/libs-releases/com/amazonaws/jmespath-java/1.11.407/jmespath-java-1.11.407.pom
+Source10  : https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.jar
+Source11  : https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.pom
+Source12  : https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.jar
+Source13  : https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.pom
+Source14  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.jar
+Source15  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.pom
+Source16  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.jar
+Source17  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.pom
+Source18  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.jar
+Source19  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.pom
+Source20  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.jar
+Source21  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.pom
+Source22  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.jar
+Source23  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.pom
+Source24  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.jar
+Source25  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.pom
+Source26  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.jar
+Source27  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.pom
+Source28  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.jar
+Source29  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.pom
+Source30  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.jar
+Source31  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.pom
+Source32  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.jar
+Source33  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.pom
+Source34  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.10.69/aws-java-sdk-pom-1.10.69.pom
+Source35  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.271/aws-java-sdk-pom-1.11.271.pom
+Source36  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.375/aws-java-sdk-pom-1.11.375.pom
+Source37  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.437/aws-java-sdk-pom-1.11.437.pom
+Source38  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.6/aws-java-sdk-pom-1.11.6.pom
+Source39  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.jar
+Source40  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.pom
+Source41  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.jar
+Source42  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.pom
+Source43  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.jar
+Source44  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.pom
+Source45  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.jar
+Source46  : https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
+Source47  : https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
+Source48  : https://repo1.maven.org/maven2/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -110,122 +112,128 @@ cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.407
 cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.407/aws-java-sdk-s3-1.11.407.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.407
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.407/jmespath-java-1.11.407.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.407
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.407/jmespath-java-1.11.407.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.pom
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.271/aws-java-sdk-dynamodb-1.11.271.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.jar
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.pom
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-bundle/1.11.375
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.jar
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-bundle/1.11.375
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.pom
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-bundle/1.11.375/aws-java-sdk-bundle-1.11.375.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.69
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.jar
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.69
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.pom
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.69/aws-java-sdk-core-1.10.69.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.271
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.jar
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.271
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.pom
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.271/aws-java-sdk-core-1.11.271.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.437
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.jar
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.437
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.pom
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.437/aws-java-sdk-core-1.11.437.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.6
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.jar
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.6
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.pom
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.6/aws-java-sdk-core-1.11.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.69
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.jar
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.69
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.69/aws-java-sdk-ec2-1.10.69.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.223
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.223
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.223/aws-java-sdk-kms-1.11.223.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.271
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.jar
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.271
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.271/aws-java-sdk-kms-1.11.271.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.437
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.jar
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.437
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.pom
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.437/aws-java-sdk-kms-1.11.437.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.6
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.jar
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.6
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.6/aws-java-sdk-kms-1.11.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.10.69
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.10.69/aws-java-sdk-pom-1.10.69.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.10.69/aws-java-sdk-pom-1.10.69.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.271
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.271/aws-java-sdk-pom-1.11.271.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.271/aws-java-sdk-pom-1.11.271.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.375
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.375/aws-java-sdk-pom-1.11.375.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.375/aws-java-sdk-pom-1.11.375.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.437
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.437/aws-java-sdk-pom-1.11.437.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.437/aws-java-sdk-pom-1.11.437.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.6
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.6/aws-java-sdk-pom-1.11.6.pom
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-pom/1.11.6/aws-java-sdk-pom-1.11.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.223
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.jar
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.223
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.223/aws-java-sdk-s3-1.11.223.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.271
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.jar
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.271
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.pom
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.271/aws-java-sdk-s3-1.11.271.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.437
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.jar
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.437
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.437/aws-java-sdk-s3-1.11.437.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.jar
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
 
 
 %files
@@ -277,6 +285,8 @@ cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/amazonaws/jmespath
 /usr/share/java/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.6/aws-java-sdk-s3-1.11.6.pom
 /usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.jar
 /usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.271/jmespath-java-1.11.271.pom
+/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.407/jmespath-java-1.11.407.jar
+/usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.407/jmespath-java-1.11.407.pom
 /usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.jar
 /usr/share/java/.m2/repository/com/amazonaws/jmespath-java/1.11.437/jmespath-java-1.11.437.pom
 
