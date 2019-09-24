@@ -38,3 +38,10 @@ ef5aefc0db4043dc42b2f40546153f67f7f118cd/aws-java-sdk-dynamodb-1.11.271.jar
 aa682037b324a1716504e9c2b881e5ba513af7db/aws-java-sdk-dynamodb-1.11.271.pom
 2e29a91e1853634f6248267dde9a2647f11a60e6/jmespath-java-1.11.437.jar
 f2c507383fc7d9cc6dbaafc1961def5e6c6de3bc/jmespath-java-1.11.437.pom
+f4b641995bdfed7574d42973f18fc53f0b31748c/aws-java-sdk-core-1.11.407.jar
+b7111dde4e541f89a27f27a30768089d97abd4dc/aws-java-sdk-core-1.11.407.pom
+8781bc25d4957f915aaf8b041e2abf4a925dd5d8/aws-java-sdk-kms-1.11.407.jar
+505e77576c07ba3e28bfa8ebee1f6702e42a67b9/aws-java-sdk-kms-1.11.407.pom
+4dcfa9808f306365840f568c54e85ae384e78da3/aws-java-sdk-pom-1.11.407.pom
+9655501cf884d687fdecff6a0cf03955c6d7b59a/aws-java-sdk-s3-1.11.407.jar
+2ee869d59b338706f68814f76193856e8e118706/aws-java-sdk-s3-1.11.407.pom
